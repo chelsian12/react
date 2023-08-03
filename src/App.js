@@ -9,9 +9,9 @@ const App = () => {
 
   return (
     <div>
-      <div className=" border  inline-block bg-gray-600 p-4 m-4">
+      <div className=" rounded-xl  inline-block bg-gray-600 p-4 m-4">
         <img src={movie1.Poster} alt="" />
-        <div className="text-center font-serif text-lg text-red-500 capitalize">
+        <div className=" text font-bold font-serif text-lg text-red-500 capitalize ">
           <h1>{movie1.Title}</h1>
           <h3>{movie1.Year}</h3>
           <h4>{movie1.Runtime}</h4>
