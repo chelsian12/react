@@ -1,11 +1,15 @@
-import React from 'react'
+const Quote = ({data,show}) => {
 
-const Quote = (props) => {
   return (
     <div>
-      <h1>quote data</h1>
+      {data.quotes.map((d) =>
+      {return <div key={d.id}>
+          <h1>{d.quote}</h1>
+          <p>{d.author}</p>
+          <button onClick={() => show(d.quote)}>show the quote</button>
+        </div>
+      })}
     </div>
   )
 }
-
 export default Quote
