@@ -11,8 +11,10 @@ const App = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<RootLayout />} />
+      <Route path="/" element={<RootLayout />} >
       <Route path="sample_page" element={<Sample />} />
+    
+      </Route>
       <Route path="*" element={<NotFound />} />
 
 
