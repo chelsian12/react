@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router"
-import HomePage from "./pages/HomePage"
 import Sample from "./pages/Sample"
 import NotFound from "./pages/NotFound"
 import { RootLayout } from "./components/RootLayout"
