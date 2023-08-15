@@ -17,7 +17,7 @@ const Header = () => {
 
       <div>
         <NavLink to='/' onClick={closeMenu}>
-          <h1>Sample Logo</h1> </NavLink>
+          <h1>Dilip Sahu</h1> </NavLink>
 
         {show && <nav className="flex flex-col space-y-1 mt-3  items-center hidden sm:flex">
           <NavLink to='/about-us' onClick={closeMenu} >About</NavLink>

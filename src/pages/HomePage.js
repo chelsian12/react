@@ -24,8 +24,8 @@ const HomePage = () => {
       </div>
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-center text-2xl font-semibold p-5"> Who am I</h1>
-        <div className="h-[390px] w-[390px] mt-7 border-4 border-green-400 bg-black rounded-full text-white flex flex-col items-center justify-center">
-          <div>
+        <div className="h-[400px] w-[400px] border-4 border-green-300 bg-black rounded-full text-white relative">
+          <div className='absolute bottom-36 left-16'>
             <h1>Name: Dilip Sahu</h1>
             <h1>Email: dilip.sau2052@gmail.com</h1>
             <h1>Tel: 977-9860349123</h1>

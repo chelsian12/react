@@ -3,9 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div class="flex flex-nowrap">
-      <div class="bg-red-300 p-2">Item 1</div>
-      <div class="bg-blue-300 p-2">Item 2</div>
-      <div class="bg-green-300 p-2">Item 3</div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sed minus et provident ullam ipsam, culpa, ex facere ratione quasi cupiditate? Recusandae alias ab eos asperiores temporibus cumque quis dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi incidunt officiis vel quidem, doloremque at facilis earum perspiciatis consequuntur laboriosam odit provident reiciendis? Modi vero dignissimos cum magni aliquam amet?</p>
     </div>
 
   )
