@@ -2,8 +2,31 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, possimus illum, ipsam itaque odit debitis qui laudantium omnis quidem, nihil obcaecati reprehenderit reiciendis corporis aliquid deleniti nisi velit cum. Aliquam iusto animi magnam! Provident dolorum magni, quisquam dolores soluta sapiente quidem beatae? Autem culpa quibusdam nihil minus blanditiis dicta maxime cum at assumenda? Nobis unde aspernatur optio ipsa nulla dicta explicabo sint in, iste minus eveniet vero impedit velit aperiam dignissimos dolor corrupti illum cupiditate eligendi sequi, modi quaerat, corporis quia tempore. Fugit voluptas eligendi saepe laborum fuga perferendis possimus iure. Quam adipisci assumenda ex architecto voluptate molestiae, ab id voluptatum impedit fuga quae delectus earum. Eum, molestias. Expedita ducimus eveniet natus, velit exercitationem inventore? Laboriosam ipsa at dolores officia laborum voluptates. Ipsa illum, corrupti perferendis blanditiis eius repellat vitae! Iste maxime repellendus alias sit corporis sequi optio quod cumque nam id, ullam et eveniet beatae sint commodi qui iure. Vitae laboriosam cupiditate, deleniti dolore saepe, eum, nam rerum culpa hic rem sit. Eveniet, ullam! Illo itaque adipisci accusamus voluptatem aliquid, modi aliquam, cum nam atque laboriosam magni neque incidunt libero perspiciatis cupiditate soluta labore, quaerat corporis vero fugiat. A ex alias porro, error rerum quis ullam consequuntur tempore, repellendus, placeat earum? Error magnam, quas officiis tempore repellendus ad praesentium consectetur quasi, voluptatibus totam laudantium? Debitis ipsam hic dolor saepe eum non voluptates earum nihil nisi vitae pariatur facilis possimus ipsum aliquid, tempore illum enim iusto laborum dignissimos velit. Aliquid consequatur id delectus earum maxime veritatis eaque ea a! Adipisci optio sapiente, cum labore possimus quas tempora culpa corporis nobis dolorem perferendis, animi repellendus laboriosam, temporibus accusamus. Alias iure possimus et accusantium reprehenderit ad accusamus. Corporis quam accusamus inventore cum officia ratione aliquid, soluta in accusantium nam ipsa corrupti. Sint, exercitationem veritatis quidem officia accusamus quasi ipsum velit suscipit atque aliquid! Commodi aperiam soluta sequi accusantium numquam obcaecati quisquam assumenda officiis, culpa ducimus rerum, ipsam voluptates dignissimos, error nostrum perspiciatis provident maiores esse placeat veniam in expedita? Voluptatibus vero accusamus hic illum? Pariatur, dolores ducimus minus quod repellendus alias. Sapiente, at quisquam. Rerum voluptatem impedit incidunt delectus nostrum officia veritatis vitae fugit blanditiis optio molestias numquam, rem officiis maiores consequuntur non deserunt natus sequi aliquam aliquid possimus suscipit assumenda? Quam sit nostrum modi earum rerum? Unde, fugit totam recusandae hic quos quia qui ab sapiente provident quaerat at animi nulla a iusto exercitationem eius cumque adipisci eum quasi, dignissimos quidem. Sed, sequi nam esse quidem dicta beatae a repudiandae dolorum repellendus porro explicabo at harum qui, veniam distinctio quas sit deleniti aliquid vero dolores. Quasi voluptatibus veritatis perferendis quidem! Asperiores tempore ratione recusandae laudantium natus eveniet autem? Quas architecto, quam quisquam nobis blanditiis deserunt ad animi sint recusandae voluptates illum voluptatum, odio inventore provident soluta tempore quasi ratione nihil? Ullam, libero! Hic quam, quis labore ut perferendis assumenda voluptates, distinctio magnam aspernatur odit veniam nam praesentium aliquam optio consectetur rerum aperiam, expedita voluptatum perspiciatis nesciunt blanditiis. Nihil laboriosam officia fugiat, esse nam placeat repellendus ea magnam ducimus commodi unde recusandae?</p>
+    <div className=' grid grid-cols-2  md:grid-cols-1'>
+      <div className='h-[400px]'>
+        <lottie-player src="https://lottie.host/681479d6-4638-4fd0-81ae-7caca18206a3/GoiPliBDFa.json" background="#ffffff" speed="1" loop autoplay direction="1" mode="normal"></lottie-player>
+      </div>
+
+      <div className='p-5'>
+        <h1 className='text-center text-2xl font-semibold mb-4'>Contact Us</h1>
+        <form className='space-y-4'>
+          <div>
+            <label className='block'>Name:</label>
+            <input type='text' className='w-full border p-2' placeholder='Please Type Your Name' required />
+          </div>
+          <div>
+            <label className='block'>Email:</label>
+            <input type='email' className='w-full border p-2' placeholder='Please Type Your Email' required />
+          </div>
+          <div>
+            <label className='block'>Message:</label>
+            <textarea className='w-full border p-2' placeholder='Please Type your Message' required></textarea>
+          </div>
+          <div className='flex justify-center'>
+            <button className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 hover:border-blue-600 hover:animate-bounce'>Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
