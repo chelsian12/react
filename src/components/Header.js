@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
 
@@ -26,7 +27,7 @@ const Header = () => {
         }
 
       </div>
-      {show ? <button onClick={toggle} className="hidden sm:flex"><i class="fa-solid fa-xmark fa-lg"></i> </button> : <button onClick={toggle} className="hidden sm:flex"><i className="fa-solid fa-bars fa-lg"></i></button>}
+      {show ? <button onClick={toggle} className="hidden sm:flex"><BiMenu /> </button> : <button onClick={toggle} className="hidden sm:flex"><i className="fa-solid fa-bars fa-lg"></i></button>}
 
 
       <nav className="space-x-5 flex sm:hidden">
